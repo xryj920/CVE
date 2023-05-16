@@ -1,8 +1,4 @@
-# Guest Management System v1.0 has reflected cross-site scripting
-
 BUG_Author: DRXYJ
-
-Website source code address:  https://www.sourcecodester.com/php/14664/guest-management-system-php-full-source-code.html
 
 Vulnerability File: /guestmanagement/dateTest.php
 
