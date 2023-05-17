@@ -12,4 +12,4 @@ Capture the package and then there is oldpic at the bottom of the package, which
 
 Source code audit: Oldpic will be deleted when uploading .
 
-![image]https://github.com/xryj920/CVE/blob/main/pic3.png
+![image](https://github.com/xryj920/CVE/blob/main/pic3.png)
