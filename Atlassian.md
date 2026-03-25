@@ -123,3 +123,5 @@ This enables a range of high-severity attacks including unauthorized source code
 2. **Use a Dynamic Loopback Port:** Replace the hardcoded port `31415` with a dynamic port assignment (bind to port `0` and let the OS assign an available port). This prevents any malicious process from reliably pre-binding to the callback address.
 3. **Remove the Hardcoded Client Secret:** Transition the Bitbucket flow to a public client model (as recommended by RFC 9700 for native apps), where no `client_secret` is required or stored. The secret currently embedded in the extension bundle provides no real security and can be extracted by any user.
 
+<img width="2049" height="1337" alt="PoC screenshot 1" src="https://github.com/user-attachments/assets/9599d2a5-1792-4046-8f05-47de815203de" />
+<img width="2607" height="624" alt="PoC screenshot 2" src="https://github.com/user-attachments/assets/f42e6eeb-7939-458c-ad9d-724c1098a34b" />
