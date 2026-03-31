@@ -165,7 +165,8 @@ Attack flow:
 ---
 
 ## 5. Proof of Concept
-
+<img width="3705" height="984" alt="PoC for main attack step" src="https://github.com/user-attachments/assets/40038ae8-e3d5-4b98-b5f9-b080fecb5f8f" />
+<img width="1743" height="1041" alt="Attack success for Premium without payment" src="https://github.com/user-attachments/assets/ab1f12e5-deb4-4d85-9173-59e33e906738" />
 ### 5.1 PoC Code
 
 ```javascript
