@@ -4,7 +4,7 @@
 
 ## 1. Summary
 
-A missing origin validation vulnerability in Adblock Plus Chrome Extension (`cfhdojbkjhnklbpkdaibdccddilifddb`, v4.36.2) allows any JavaScript running in the context of `accounts.adblockplus.org` to forge a `payment_success` postMessage event and activate the Premium subscription without any payment. Combined with the absence of binding between the submitted `userId` and a verified payment session in the extension background, the entire Premium authorization chain can be bypassed in approximately 30 seconds with a single line of JavaScript.
+A missing origin validation vulnerability in Adblock Plus Chrome Extension (`cfhdojbkjhnklbpkdaibdccddilifddb`, v4.36.1) allows any JavaScript running in the context of `accounts.adblockplus.org` to forge a `payment_success` postMessage event and activate the Premium subscription without any payment. Combined with the absence of binding between the submitted `userId` and a verified payment session in the extension background, the entire Premium authorization chain can be bypassed in approximately 30 seconds with a single line of JavaScript.
 
 ---
 
