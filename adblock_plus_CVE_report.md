@@ -191,7 +191,7 @@ window.postMessage({
 | Field | Value |
 |-------|-------|
 | Browser | Google Chrome (latest) |
-| Extension Version | 4.36.2 |
+| Extension Version | 4.36.1 |
 | Account Required | No |
 | Payment Required | No |
 | Steps Required | 3 |
