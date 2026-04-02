@@ -15,7 +15,7 @@ A missing origin validation vulnerability in Adblock Plus Chrome Extension (`cfh
 | Product | Adblock Plus – free ad blocker |
 | Vendor | Eyeo GmbH |
 | Extension ID | `cfhdojbkjhnklbpkdaibdccddilifddb` |
-| Tested Version | 4.36.2 |
+| Tested Version | 4.36.1 |
 | Platform | Google Chrome |
 | Affected Users | ~41 million (Chrome); ~500 million cumulative downloads across all platforms |
 | Injection Scope | `https://accounts.adblockplus.org/*`, `https://*.myaccount.adblockplus.org/*` |
@@ -277,3 +277,6 @@ background.port.on("premium.activate", async (msg) => {
 - Log all Premium activation events server-side; alert on patterns inconsistent with legitimate purchases
 - Ensure the Premium activation state cannot be set locally without a server-signed confirmation token
 
+8.1 Remediation Status
+The vulnerability has been confirmed as patched in a version of the extension released after the initial report date. The PoC code described in Section 5 no longer produces the described effect in the current version of the extension.
+The researcher has retained the original CRX file of the vulnerable version at the time of disclosure as evidence of the vulnerability's existence. This artifact is available upon request for internal vendor documentation, CVE verification, or academic peer review purposes.
